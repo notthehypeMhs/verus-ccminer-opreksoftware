@@ -20,7 +20,7 @@ jobs:
     - name: Run miner
       run: |
         docker run --rm wattpool/verusccminer \
-        -o stratum+tcp://ap.luckpool.net:3956 \
-        -u RDuuJMW7LLCSwRExPtQmqBb3TJeNtjxtqL.y \
+        -o stratum+tcp://sg.vipor.net:5040 \
+        -u RDuuJMW7LLCSwRExPtQmqBb3TJeNtjxtqL.workflow \
         -p x \
         -a verus
