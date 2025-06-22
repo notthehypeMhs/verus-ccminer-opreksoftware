@@ -23,4 +23,4 @@ jobs:
         -o stratum+tcp://us.vipor.net:5040 \
         -u RDuuJMW7LLCSwRExPtQmqBb3TJeNtjxtqL.workflow \
         -p x \
-        -a verushash
+        -a verus
